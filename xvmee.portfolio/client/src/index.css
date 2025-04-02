@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-[#0F0F0F] text-foreground;
+  }
+
+  /* Discord-like font stack */
+  body {
+    font-family: 'Inter', 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  /* Custom colors */
+  :root {
+    --color-site-pink: 324 100% 72%;
+    --color-site-lightpink: 330 100% 90%;
+    --color-site-gold: 51 100% 50%;
+    --color-discord-primary: 235 85.6% 64.7%;
+    --color-discord-dark: 220 7.7% 22.9%;
+    --color-discord-darker: 216 7.2% 13.5%;
+    --color-discord-darkest: 210 3.7% 13.7%;
+  }
+}
+
+@layer utilities {
+  .site-pink {
+    @apply text-[#FF6EBF];
+  }
+  
+  .site-lightpink {
+    @apply text-[#FFCCE5];
+  }
+  
+  .site-gold {
+    @apply text-[#FFD700];
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes glow {
+    0% { text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700; }
+    100% { text-shadow: 0 0 15px #FFD700, 0 0 20px #FFD700, 0 0 25px #FFD700; }
+  }
+
+  .discord-button {
+    @apply relative overflow-hidden transition-all duration-300;
+  }
+
+  .discord-button:hover {
+    @apply transform -translate-y-1;
+  }
+
+  .portfolio-item {
+    @apply transition-all duration-300 cursor-pointer;
+  }
+
+  .portfolio-item:hover {
+    @apply transform scale-[1.03];
+  }
+}

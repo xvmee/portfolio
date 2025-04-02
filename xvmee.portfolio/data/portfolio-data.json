@@ -1,0 +1,23 @@
+{
+  "portfolioItems": [
+    {
+      "title": "LeftMC.PL | CORE 1",
+      "description": "Pare ładnych funkcji komend powitania boosty tickety weryfikacja i wiecej!",
+      "imageUrl": "/uploads/image-1743624512612-527422541.png",
+      "id": 3
+    },
+    {
+      "title": "LeftMC.PL | CORE 2",
+      "description": "Pare ładnych funkcji komend powitania boosty tickety weryfikacja i wiecej!",
+      "imageUrl": "/uploads/image-1743624512955-618192066.png",
+      "id": 4
+    },
+    {
+      "title": "LeftMC.PL | CORE 3",
+      "description": "Pare ładnych funkcji komend powitania boosty tickety weryfikacja i wiecej!",
+      "imageUrl": "/uploads/image-1743624513170-727605061.png",
+      "id": 5
+    }
+  ],
+  "nextPortfolioId": 6
+}

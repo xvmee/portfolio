@@ -1,0 +1,13 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#121212"/>
+  <rect x="50" y="50" width="700" height="500" rx="15" fill="#1e1e1e"/>
+  <text x="400" y="250" font-family="Arial" font-size="48" text-anchor="middle" fill="#FF6EBF">Portfolio Website</text>
+  <text x="400" y="320" font-family="Arial" font-size="24" text-anchor="middle" fill="#FFF">Discord-inspired design</text>
+  
+  <!-- Website mockup -->
+  <rect x="300" y="100" width="200" height="120" rx="5" fill="#2f3136"/>
+  <rect x="310" y="110" width="180" height="20" rx="3" fill="#FF6EBF"/>
+  <rect x="310" y="140" width="180" height="10" rx="2" fill="#7289DA"/>
+  <rect x="310" y="160" width="150" height="10" rx="2" fill="#7289DA"/>
+  <rect x="310" y="180" width="120" height="10" rx="2" fill="#7289DA"/>
+</svg>
